@@ -10,7 +10,7 @@ class Student(models.Model):
     prezime = models.CharField(max_length=100)
     naslov = models.CharField(max_length=100)
     smer = models.CharField(max_length=100)
-    godina_odbrane = models.IntegerField()  # Dodala nova polje za godinu odbrane
+    godina_odbrane = models.IntegerField() 
     tip_teze = models.CharField(max_length=100)
 
 class Profesor(models.Model):
