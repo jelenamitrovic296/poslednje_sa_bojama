@@ -1,4 +1,4 @@
-// brisanje_studenta.js — klik na "Избриши" u tabeli rezultata pretrage za brisanje studenta
+// brisanje_studenta.js 
 
 document.addEventListener("DOMContentLoaded", () => {
     const tabela = document.getElementById("tabela-studenata-za-brisanje");
