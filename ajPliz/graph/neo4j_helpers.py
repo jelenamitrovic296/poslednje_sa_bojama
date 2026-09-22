@@ -60,10 +60,8 @@ def get_student_tree_by_name(student_name, student_surname):
     RETURN s, m, collect(k) AS komisija
     """
     
-    # Izvrši upit prema Neo4j bazi
     result = run_neo4j_query(query, {"student_name": student_name, "student_surname": student_surname})
 
-    # Obrada rezultata iz Neo4j
     tree_data = None
     for record in result:
         tree_data = {
