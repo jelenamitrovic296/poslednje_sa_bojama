@@ -16,7 +16,6 @@ body {
     overflow: hidden;
 }
 
-/* Animated background elements */
 body::before {
     content: '';
     position: absolute;
@@ -245,7 +244,6 @@ button[type="submit"]:active {
     margin: 0 5px;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .container {
         padding: 40px 30px;
